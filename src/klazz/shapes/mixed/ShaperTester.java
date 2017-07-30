@@ -1,4 +1,4 @@
-package klazz.shapes;
+package klazz.shapes.mixed;
 
 public class ShaperTester {
 	

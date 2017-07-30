@@ -1,10 +1,12 @@
-package klazz.shapes;
+package klazz.shapes.mixed;
 
 public class Shape {
 	
 	public static final String RECTANGLE_TYPE = "rectangle";
 	public static final String TRIANGLE_TYPE = "triangle";
 	public static final String CIRCLE_TYPE = "circle";
+	public static final String PANTAGONE_TYPE = "pantagone";
+	
 	
 	private String type;	//circle, rectangle, triangle
 	
