@@ -1,9 +1,7 @@
 package klazz.shapes.classes;
 
-public class Shape {
+public abstract class Shape {
 	
-	double calculateArea() throws Exception {
-		throw new Exception("area calculation not supported");
-	}
+	abstract double calculateArea() throws Exception;
 
 }

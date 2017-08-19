@@ -5,6 +5,7 @@ public class Tester {
 	
 	public static void main(String[] args) {
 		
+		//declaraion + initialization
 		Human[] bus = new Human[5];
 		
 		Human a = new AsianHuman();
@@ -16,7 +17,7 @@ public class Tester {
 		Human c = new EuropeanHuman();
 		bus[2] = c;
 		
-		Human d = new Human();
+		Human d = new EuropeanHuman();
 		bus[3] = d;
 		
 		Human e = new AsianHuman();
