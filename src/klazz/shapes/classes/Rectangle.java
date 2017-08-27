@@ -9,7 +9,7 @@ public class Rectangle extends Shape {
 	double calculateArea() {
 		return length * width;
 	}
-
+	
 	public int getLength() {
 		return length;
 	}
@@ -24,6 +24,11 @@ public class Rectangle extends Shape {
 
 	public void setWidth(int width) {
 		this.width = width;
+	}
+	
+	@Override
+	public String toString() {
+		return "I am rectangle, and I have my own string representation"; 
 	}
 
 }

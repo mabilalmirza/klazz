@@ -9,6 +9,11 @@ public class Triangle extends Shape {
 	double calculateArea() {
 		return 0.5 * length * width;
 	}
+	
+	@Override
+	public void printDescription() {
+		System.out.println("I am a triangle. See what I do.");
+	}
 
 	public int getLength() {
 		return length;

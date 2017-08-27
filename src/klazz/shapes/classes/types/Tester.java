@@ -5,7 +5,11 @@ public class Tester {
 	
 	public static void main(String[] args) {
 		
-		//declaraion + initialization
+		Human asian = new AsianHuman();
+		asian.setName("Asian");		
+		System.out.println(asian.getName());
+		
+		//Declaration + Initialization
 		Human[] bus = new Human[5];
 		
 		Human a = new AsianHuman();
